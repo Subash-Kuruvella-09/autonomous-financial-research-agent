@@ -178,13 +178,15 @@ async def serve_frontend():
 if __name__ == "__main__":
     import uvicorn
 
+    port = int(os.environ.get("PORT", 8899))
+
     print()
     print("=" * 60)
     print("  ARA-1 Financial Research Agent - Web Server")
     print("=" * 60)
     print()
-    print("  Open in browser:  http://localhost:8899")
-    print("  API docs:         http://localhost:8899/docs")
+    print(f"  Open in browser:  http://localhost:{port}")
+    print(f"  API docs:         http://localhost:{port}/docs")
     print()
     print("=" * 60)
     print()
@@ -192,7 +194,7 @@ if __name__ == "__main__":
     uvicorn.run(
         "server:app",
         host="0.0.0.0",
-        port=8899,
+        port=port,
         reload=False,
         log_level="info",
     )
