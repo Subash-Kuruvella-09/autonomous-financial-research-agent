@@ -1,0 +1,338 @@
+[
+  {
+    "tool": "vector_db_search",
+    "success": true,
+    "query_type": "tool_call",
+    "timestamp": "2026-04-26T16:50:31.334117"
+  },
+  {
+    "tool": "financial_data_api",
+    "success": true,
+    "query_type": "tool_call",
+    "timestamp": "2026-04-26T16:50:32.646993"
+  },
+  {
+    "tool": "news_sentiment",
+    "success": true,
+    "query_type": "tool_call",
+    "timestamp": "2026-04-26T16:50:35.870280"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-26T16:50:36.615893"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-26T16:50:36.628389"
+  },
+  {
+    "tool": "financial_data_api",
+    "success": true,
+    "query_type": "tool_call",
+    "timestamp": "2026-04-26T16:51:20.125705"
+  },
+  {
+    "tool": "company_profile",
+    "success": true,
+    "query_type": "tool_call",
+    "timestamp": "2026-04-26T16:51:20.482269"
+  },
+  {
+    "tool": "news_sentiment",
+    "success": true,
+    "query_type": "tool_call",
+    "timestamp": "2026-04-26T16:51:32.646903"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-29T15:12:33.678521"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-29T15:12:33.708485"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-29T15:49:01.719232"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-29T15:49:01.734402"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-29T18:03:25.084324"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-29T18:03:25.100317"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T15:32:21.657997"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T15:32:21.674462"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T15:44:40.444589"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T15:44:40.457331"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T15:54:28.999674"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T15:54:29.013050"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T16:09:01.848067"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T16:09:01.855544"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T16:16:30.212359"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T16:16:30.236783"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T16:34:16.736351"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T16:34:16.751810"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T16:42:16.024122"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T16:42:16.031623"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-04-30T16:54:36.838208"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-04-30T16:54:36.846210"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-01T14:32:39.444120"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-01T14:32:39.453042"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-01T15:13:04.469537"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-01T15:13:04.476095"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-01T15:25:46.479353"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-01T15:25:46.489194"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-02T00:28:40.498928"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-02T00:28:40.524167"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T15:17:50.715926"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T15:17:50.741356"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T15:22:12.369022"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T15:22:12.407090"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T15:56:18.376179"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T15:56:18.398533"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T16:03:08.596495"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T16:03:08.621772"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T16:04:12.482588"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T16:04:12.500942"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T16:14:37.892982"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T16:14:37.934339"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T16:22:20.525428"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T16:22:20.550512"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T16:27:43.534449"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T16:27:43.549685"
+  },
+  {
+    "tool": "vector_db_store",
+    "success": true,
+    "query_type": "agent_analysis",
+    "timestamp": "2026-05-19T16:30:58.716929"
+  },
+  {
+    "tool": "agent_session",
+    "success": true,
+    "query_type": "research",
+    "timestamp": "2026-05-19T16:30:58.728047"
+  }
+]

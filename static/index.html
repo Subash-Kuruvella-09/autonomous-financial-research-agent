@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ARA-1 Autonomous Financial Research Agent — AI-powered investment analysis, real-time market data, and professional PDF reports.">
+  <title>ARA-1 | Financial Research Agent</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- ─── Header ──────────────────────────────────────── -->
+    <header class="chat-header" id="chat-header">
+      <div class="header-logo">A</div>
+      <div class="header-info">
+        <div class="header-title">ARA-1 Research Agent</div>
+        <div class="header-subtitle">Autonomous Financial Intelligence</div>
+      </div>
+      <div class="header-status">
+        <span class="status-dot"></span>
+        Online
+      </div>
+    </header>
+
+    <!-- ─── Messages Area ───────────────────────────────── -->
+    <div class="chat-messages" id="chat-messages">
+
+      <!-- Welcome Screen (visible initially) -->
+      <div class="welcome-screen" id="welcome-screen">
+        <div class="welcome-icon">A</div>
+        <h1 class="welcome-title">Financial Research, Instantly</h1>
+        <p class="welcome-desc">
+          Ask me anything about publicly traded companies worldwide — market caps,
+          financial risks, earnings analysis, or generate detailed PDF reports.
+        </p>
+        <div class="suggestion-chips" id="suggestion-chips">
+          <button class="chip" data-query="What is Tesla's market cap?">
+            <span class="chip-icon">📈</span>Tesla market cap
+          </button>
+          <button class="chip" data-query="Give me an analysis on Novartis's financial risks in a PDF">
+            <span class="chip-icon">📄</span>Novartis risk report PDF
+          </button>
+          <button class="chip" data-query="Who is the CEO of Apple?">
+            <span class="chip-icon">👤</span>Apple CEO
+          </button>
+          <button class="chip" data-query="Compare Nvidia with its peers">
+            <span class="chip-icon">⚖️</span>Nvidia peer comparison
+          </button>
+          <button class="chip" data-query="What are Microsoft's key financial ratios?">
+            <span class="chip-icon">📊</span>Microsoft ratios
+          </button>
+          <button class="chip" data-query="Hi, what can you do?">
+            <span class="chip-icon">👋</span>What can you do?
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ─── Input Area ──────────────────────────────────── -->
+    <div class="chat-input-area" id="chat-input-area">
+      <div class="input-wrapper">
+        <textarea
+          class="chat-input"
+          id="chat-input"
+          placeholder="Ask about any company or request a PDF report..."
+          rows="1"
+          aria-label="Chat message input"
+        ></textarea>
+        <button class="send-btn" id="send-btn" aria-label="Send message" disabled>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+      <div class="input-hint">Press Enter to send &middot; Shift+Enter for new line</div>
+    </div>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
